@@ -13,6 +13,7 @@
 		87AFC05F1FE3E62C008758A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AFC05E1FE3E62C008758A8 /* Assets.xcassets */; };
 		87AFC0621FE3E62C008758A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AFC0601FE3E62C008758A8 /* LaunchScreen.storyboard */; };
 		87AFC0651FE3E62C008758A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AFC0641FE3E62C008758A8 /* main.m */; };
+		87AFC06D1FE3E761008758A8 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AFC06C1FE3E761008758A8 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		87AFC0611FE3E62C008758A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87AFC0631FE3E62C008758A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87AFC0641FE3E62C008758A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87AFC06B1FE3E761008758A8 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		87AFC06C1FE3E761008758A8 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				87AFC0601FE3E62C008758A8 /* LaunchScreen.storyboard */,
 				87AFC0631FE3E62C008758A8 /* Info.plist */,
 				87AFC0641FE3E62C008758A8 /* main.m */,
+				87AFC06B1FE3E761008758A8 /* TableViewCell.h */,
+				87AFC06C1FE3E761008758A8 /* TableViewCell.m */,
 			);
 			path = iOS11TableViewIssue;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87AFC05A1FE3E62C008758A8 /* ViewController.m in Sources */,
+				87AFC06D1FE3E761008758A8 /* TableViewCell.m in Sources */,
 				87AFC0651FE3E62C008758A8 /* main.m in Sources */,
 				87AFC0571FE3E62C008758A8 /* AppDelegate.m in Sources */,
 			);
