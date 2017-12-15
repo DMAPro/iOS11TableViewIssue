@@ -25,6 +25,7 @@
 }
 
 - (IBAction)generateDataPressed:(id)sender {
+    NSLog(@"Generate data pressed.");
     static int startIndex = 0;
     
     const NSUInteger numberOfRecordsToGenerate = 30;
@@ -71,6 +72,7 @@
 }
 
 - (IBAction)clearTablePressed:(id)sender {
+    NSLog(@"Clear data pressed.");
     [self.items removeAllObjects];
     [self.tableView reloadData];
 }
